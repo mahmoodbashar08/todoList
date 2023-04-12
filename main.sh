@@ -62,7 +62,7 @@ while getopts :hda:r:c-: opt; do
             sed -i "/^$name$/d" "$path"
             echo "Todo removed successfully: $name"
             echo -e "Todo still to go\n"
-            cat "/home/mahmood08/Desktop/Todos/todos.txt"
+            cat "$path"
         fi
         ;;
     -)
